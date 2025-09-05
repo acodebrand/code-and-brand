@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Code & Brand — Estrategia, código y diseño que convierten</title>
+  <meta name="description" content="Desarrollo web, e‑commerce, SaaS, bots, ciberseguridad ética y diseño." />
+  <meta name="author" content="Code & Brand" />
+  <link rel="icon" href="assets/logo.jpg" />
+  <meta property="og:title" content="Code & Brand — Estrategia, código y diseño que convierten" />
+  <meta property="og:description" content="Desarrollo web, e‑commerce, SaaS, bots, ciberseguridad ética y diseño." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="index.html" />
+  <meta property="og:image" content="assets/logo.jpg" />
+  <meta name="theme-color" content="#0b0b14" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    .fade-up{opacity:0;transform:translateY(10px);animation:fadeUp .8s ease forwards}
+    .delay-1{animation-delay:.1s}.delay-2{animation-delay:.2s}.delay-3{animation-delay:.3s}
+    @keyframes fadeUp{to{opacity:1;transform:translateY(0)}}
+    .bg-grid{background-image:radial-gradient(60% 60% at 50% 0%,rgba(168,85,247,.20),transparent 60%),radial-gradient(40% 40% at 100% 20%,rgba(0,212,255,.12),transparent 60%),linear-gradient(115deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:auto,auto,24px 24px;background-repeat:no-repeat,no-repeat,repeat}
+    .glass{backdrop-filter:blur(10px)}
+  </style>
+</head>
+<body class="min-h-screen bg-[#0b0b14] text-white bg-grid">
+<header class="sticky top-0 z-40 border-b border-white/10 bg-black/30 glass">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+    <a href="index.html#inicio" class="flex items-center gap-3">
+      <img src="assets/logo.jpg" alt="Code & Brand logo" class="h-9 w-9 rounded-md object-cover"/>
+      <div>
+        <p class="text-xs uppercase tracking-widest text-white/60">Code & Brand</p>
+        <p class="-mt-0.5 text-base font-bold">Estrategia, código y diseño que convierten</p>
+      </div>
+    </a>
+    <nav class="hidden md:flex items-center gap-6 text-sm">
+      <a href="index.html#inicio" class="text-white/80 hover:text-white">Inicio</a>
+      <a href="index.html#servicios" class="text-white/80 hover:text-white">Servicios</a>
+      <a href="index.html#nosotros" class="text-white/80 hover:text-white">Nosotros</a>
+      <a href="index.html#contacto" class="text-white/80 hover:text-white">Contacto</a>
+      <a href="index.html#contacto" class="inline-flex items-center gap-2 rounded-xl border border-fuchsia-500/40 bg-fuchsia-500/10 px-4 py-2 font-semibold text-white shadow-[0_0_0_1px_rgba(217,70,239,0.25)] hover:bg-fuchsia-500/20">
+        <i data-lucide="wand-2" class="w-4 h-4"></i> Cotiza ahora
+      </a>
+    </nav>
+  </div>
+</header>
+
+<section id="inicio" class="relative">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 sm:py-28 grid lg:grid-cols-2 gap-10 items-center">
+    <div>
+      <h1 class="fade-up text-4xl sm:text-6xl font-extrabold leading-tight">
+        Tecnología con propósito: <span class="bg-gradient-to-r from-fuchsia-400 to-cyan-300 bg-clip-text text-transparent">marcas que inspiran</span> y productos que funcionan.
+      </h1>
+      <p class="fade-up delay-1 mt-4 text-white/70 text-lg">
+        Construimos soluciones digitales de principio a fin: estrategia, diseño, desarrollo y soporte.
+        Todo con enfoque en conversión, seguridad y performance.
+      </p>
+      <ul class="fade-up delay-2 mt-6 grid sm:grid-cols-2 gap-2 text-white/80 text-sm">
+        <li class="flex items-start gap-2"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400"></i><span>Entrega por fases y comunicación constante.</span></li>
+        <li class="flex items-start gap-2"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400"></i><span>Código documentado y escalable.</span></li>
+        <li class="flex items-start gap-2"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400"></i><span>Diseño profesional, accesible y responsive.</span></li>
+        <li class="flex items-start gap-2"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400"></i><span>Mentoría y tutoriales para tu equipo.</span></li>
+      </ul>
+      <div class="fade-up delay-3 mt-8 flex gap-4">
+        <a href="#contacto" class="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-fuchsia-500 to-cyan-500 px-5 py-3 font-semibold text-white shadow-lg">
+          Agendar asesoría <i data-lucide="chevron-right" class="w-4 h-4"></i>
+        </a>
+        <a href="#servicios" class="inline-flex items-center gap-2 rounded-xl border border-white/15 px-5 py-3 font-semibold text-white/90 hover:bg-white/5">
+          Ver servicios
+        </a>
+      </div>
+      <div class="mt-6 flex items-center gap-3 text-sm text-white/60">
+        <i data-lucide="badge-check" class="w-4 h-4"></i> Soporte por WhatsApp · Facturable · Hecho en México
+      </div>
+    </div>
+    <div class="relative fade-up delay-2">
+      <div class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-fuchsia-500 to-cyan-500 blur-2xl opacity-30"></div>
+      <div class="relative rounded-3xl border border-white/10 bg-white/5 p-6">
+        <div class="grid grid-cols-2 gap-4">
+          <div class="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-4">
+            <i data-lucide="globe" class="w-6 h-6 text-cyan-300"></i><span class="text-sm">Sitios y landings</span>
+          </div>
+          <div class="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-4">
+            <i data-lucide="shopping-cart" class="w-6 h-6 text-cyan-300"></i><span class="text-sm">Tiendas en línea</span>
+          </div>
+          <div class="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-4">
+            <i data-lucide="server" class="w-6 h-6 text-cyan-300"></i><span class="text-sm">SaaS / APIs</span>
+          </div>
+          <div class="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-4">
+            <i data-lucide="bot" class="w-6 h-6 text-cyan-300"></i><span class="text-sm">Bots legales</span>
+          </div>
+          <div class="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-4">
+            <i data-lucide="shield-check" class="w-6 h-6 text-cyan-300"></i><span class="text-sm">Ciberseguridad ética</span>
+          </div>
+          <div class="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-4">
+            <i data-lucide="sparkles" class="w-6 h-6 text-cyan-300"></i><span class="text-sm">Branding y contenido</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="servicios" class="relative py-20 sm:py-24">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <h2 class="fade-up text-3xl sm:text-4xl font-extrabold tracking-tight">Servicios clave</h2>
+    <p class="fade-up delay-1 mt-3 max-w-3xl text-base sm:text-lg text-white/70">
+      Construimos lo que tu marca necesita hoy y puede escalar mañana.
+    </p>
+
+    <div class="mt-10 grid lg:grid-cols-3 gap-6">
+      <a href="sitios.html" class="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 hover:shadow-[0_0_0_1px_rgba(255,255,255,0.08),0_10px_50px_-15px_rgba(168,85,247,0.5)] transition block">
+        <i data-lucide="globe" class="w-8 h-8 text-fuchsia-400"></i>
+        <h3 class="mt-4 text-xl font-semibold">Sitios web y landings</h3>
+        <p class="mt-2 text-sm text-white/70">Arquitectura clara, SEO básico y velocidad.</p>
+        <span class="mt-3 inline-flex items-center gap-2 text-fuchsia-300 text-sm">Ver detalles <i data-lucide="chevron-right" class="w-4 h-4"></i></span>
+      </a>
+      <a href="tiendas.html" class="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 hover:shadow-[0_0_0_1px_rgba(255,255,255,0.08),0_10px_50px_-15px_rgba(168,85,247,0.5)] transition block">
+        <i data-lucide="shopping-cart" class="w-8 h-8 text-fuchsia-400"></i>
+        <h3 class="mt-4 text-xl font-semibold">Tiendas en línea</h3>
+        <p class="mt-2 text-sm text-white/70">Carrito, pagos, inventario y reportes.</p>
+        <span class="mt-3 inline-flex items-center gap-2 text-fuchsia-300 text-sm">Ver detalles <i data-lucide="chevron-right" class="w-4 h-4"></i></span>
+      </a>
+      <a href="saas.html" class="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 hover:shadow-[0_0_0_1px_rgba(255,255,255,0.08),0_10px_50px_-15px_rgba(168,85,247,0.5)] transition block">
+        <i data-lucide="server" class="w-8 h-8 text-fuchsia-400"></i>
+        <h3 class="mt-4 text-xl font-semibold">SaaS / Paneles / APIs</h3>
+        <p class="mt-2 text-sm text-white/70">Autenticación, roles y endpoints robustos.</p>
+        <span class="mt-3 inline-flex items-center gap-2 text-fuchsia-300 text-sm">Ver detalles <i data-lucide="chevron-right" class="w-4 h-4"></i></span>
+      </a>
+      <a href="bots.html" class="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 hover:shadow-[0_0_0_1px_rgba(255,255,255,0.08),0_10px_50px_-15px_rgba(168,85,247,0.5)] transition block">
+        <i data-lucide="bot" class="w-8 h-8 text-fuchsia-400"></i>
+        <h3 class="mt-4 text-xl font-semibold">Bots & Automatización</h3>
+        <p class="mt-2 text-sm text-white/70">Ahorra tiempo y responde más rápido (cumpliendo TOS).</p>
+        <span class="mt-3 inline-flex items-center gap-2 text-fuchsia-300 text-sm">Ver detalles <i data-lucide="chevron-right" class="w-4 h-4"></i></span>
+      </a>
+      <a href="ciberseguridad.html" class="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 hover:shadow-[0_0_0_1px_rgba(255,255,255,0.08),0_10px_50px_-15px_rgba(168,85,247,0.5)] transition block">
+        <i data-lucide="shield-check" class="w-8 h-8 text-fuchsia-400"></i>
+        <h3 class="mt-4 text-xl font-semibold">Ciberseguridad ética</h3>
+        <p class="mt-2 text-sm text-white/70">Pentesting con permiso y mejora continua.</p>
+        <span class="mt-3 inline-flex items-center gap-2 text-fuchsia-300 text-sm">Ver detalles <i data-lucide="chevron-right" class="w-4 h-4"></i></span>
+      </a>
+      <a href="software.html" class="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 hover:shadow-[0_0_0_1px_rgba(255,255,255,0.08),0_10px_50px_-15px_rgba(168,85,247,0.5)] transition block">
+        <i data-lucide="code-2" class="w-8 h-8 text-fuchsia-400"></i>
+        <h3 class="mt-4 text-xl font-semibold">Software a la medida</h3>
+        <p class="mt-2 text-sm text-white/70">Procesos internos y migraciones sin dolor.</p>
+        <span class="mt-3 inline-flex items-center gap-2 text-fuchsia-300 text-sm">Ver detalles <i data-lucide="chevron-right" class="w-4 h-4"></i></span>
+      </a>
+      <a href="programas.html" class="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 hover:shadow-[0_0_0_1px_rgba(255,255,255,0.08),0_10px_50px_-15px_rgba(168,85,247,0.5)] transition block">
+        <i data-lucide="cpu" class="w-8 h-8 text-fuchsia-400"></i>
+        <h3 class="mt-4 text-xl font-semibold">Programas & Scripts</h3>
+        <p class="mt-2 text-sm text-white/70">Utilidades listas: Python/Node/Go, con instalador y guía.</p>
+        <span class="mt-3 inline-flex items-center gap-2 text-fuchsia-300 text-sm">Ver detalles <i data-lucide="chevron-right" class="w-4 h-4"></i></span>
+      </a>
+      <a href="diseno.html" class="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-6 hover:shadow-[0_0_0_1px_rgba(255,255,255,0.08),0_10px_50px_-15px_rgba(168,85,247,0.5)] transition block">
+        <i data-lucide="sparkles" class="w-8 h-8 text-fuchsia-400"></i>
+        <h3 class="mt-4 text-xl font-semibold">Diseño & Contenido</h3>
+        <p class="mt-2 text-sm text-white/70">Marca coherente en todos tus puntos de contacto.</p>
+        <span class="mt-3 inline-flex items-center gap-2 text-fuchsia-300 text-sm">Ver detalles <i data-lucide="chevron-right" class="w-4 h-4"></i></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="nosotros" class="relative py-20 sm:py-24">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <h2 class="fade-up text-3xl sm:text-4xl font-extrabold tracking-tight">Cómo trabajamos</h2>
+    <div class="mt-8 grid lg:grid-cols-3 gap-6 text-white/80">
+      <div class="rounded-2xl border border-white/10 p-6 bg-white/[0.03]">
+        <h3 class="text-lg font-semibold flex items-center gap-2"><i data-lucide="layers" class="w-5 h-5 text-fuchsia-400"></i>Proceso claro</h3>
+        <p class="mt-2 text-sm">Kickoff → prototipo → validación → entrega. Calendario visible y avances semanales.</p>
+      </div>
+      <div class="rounded-2xl border border-white/10 p-6 bg-white/[0.03]">
+        <h3 class="text-lg font-semibold flex items-center gap-2"><i data-lucide="line-chart" class="w-5 h-5 text-fuchsia-400"></i>Resultados</h3>
+        <p class="mt-2 text-sm">Metas medibles: velocidad, SEO, conversión y retención.</p>
+      </div>
+      <div class="rounded-2xl border border-white/10 p-6 bg-white/[0.03]">
+        <h3 class="text-lg font-semibold flex items-center gap-2"><i data-lucide="book-open" class="w-5 h-5 text-fuchsia-400"></i>Tutoriales</h3>
+        <p class="mt-2 text-sm">Capacitamos a tu equipo con videos cortos y guías de uso.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="relative py-20 sm:py-24">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <h2 class="fade-up text-3xl sm:text-4xl font-extrabold tracking-tight">Hablemos</h2>
+    <div class="mt-8 grid md:grid-cols-2 gap-6">
+      <div class="rounded-2xl border border-white/10 p-6 bg-white/[0.03]">
+        <h3 class="text-lg font-semibold">Atención directa</h3>
+        <p class="mt-2 text-white/70">Envíanos contexto, ejemplos o ideas; proponemos la mejor ruta y un presupuesto claro.</p>
+        <div class="mt-4 flex flex-col gap-3">
+          <a href="https://api.whatsapp.com/send?phone=525639521350&text=Hola%2C%20quiero%20cotizar%20un%20proyecto%20con%20Code%20%26%20Brand 563 952 1350?text=Hola,%20quiero%20cotizar%20un%20proyecto%20con%20Code%20%26%20Brand?text=Hola,%20quiero%20cotizar%20un%20proyecto%20con%20Code%20%26%20Brand" target="_blank" class="inline-flex items-center gap-2 rounded-xl bg-emerald-500/20 px-4 py-3 border border-emerald-400/30 hover:bg-emerald-500/30">
+            <i data-lucide="message-circle" class="w-5 h-5"></i> WhatsApp
+          </a>
+          <a href="mailto:acodebrand@gmail.com" class="inline-flex items-center gap-2 rounded-xl bg-white/[0.06] px-4 py-3 border border-white/10 hover:bg-white/[0.1]">
+            <i data-lucide="mail" class="w-5 h-5"></i> acodebrand@gmail.com
+          </a>
+        </div>
+        <p class="mt-3 text-xs text-white/50">* Seguridad siempre ética. Nada de prácticas ilegales o que violen TOS.</p>
+      </div>
+      <div class="rounded-2xl border border-white/10 p-6 bg-white/[0.03]">
+        <h3 class="text-lg font-semibold">Paquetes frecuentes</h3>
+        <ul class="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 text-white/80">
+          <li class="flex items-start gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400"></i><span>Landing + analytics + pixel</span></li>
+          <li class="flex items-start gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400"></i><span>Tienda con pagos y envíos</span></li>
+          <li class="flex items-start gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400"></i><span>SaaS básico con login y roles</span></li>
+          <li class="flex items-start gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400"></i><span>Bot de leads con panel simple</span></li>
+          <li class="flex items-start gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400"></i><span>Pentesting de aplicación web</span></li>
+          <li class="flex items-start gap-3"><i data-lucide="check-circle-2" class="w-5 h-5 text-emerald-400"></i><span>Branding: logo + plantillas</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="border-t border-white/10 py-10 text-sm text-white/60">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+    <p>© <span id="year"></span> Code & Brand — Estrategia, código y diseño que convierten</p>
+    <div class="flex items-center gap-3">
+      <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-white/80 text-xs"><i data-lucide="lock" class="w-4 h-4"></i> SSL</span>
+      <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-white/80 text-xs"><i data-lucide="credit-card" class="w-4 h-4"></i> Pagos</span>
+      <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-white/80 text-xs"><i data-lucide="badge-check" class="w-4 h-4"></i> Garantía</span>
+    </div>
+  </div>
+</footer>
+<a href="https://api.whatsapp.com/send?phone=525639521350&text=Hola%2C%20quiero%20cotizar%20un%20proyecto%20con%20Code%20%26%20Brand 563 952 1350?text=Hola,%20quiero%20cotizar%20un%20proyecto%20con%20Code%20%26%20Brand?text=Hola,%20quiero%20cotizar%20un%20proyecto%20con%20Code%20%26%20Brand" target="_blank" class="fixed bottom-6 right-6 rounded-full border border-emerald-400/40 bg-emerald-500/20 backdrop-blur px-4 py-3 shadow-lg hover:bg-emerald-500/30 flex items-center gap-2">
+  <i data-lucide="message-circle" class="w-5 h-5"></i> Cotiza por WhatsApp
+</a>
+<script>document.getElementById('year').textContent = new Date().getFullYear();window.addEventListener('DOMContentLoaded',()=>{if(window.lucide)lucide.createIcons();});</script>
+</body></html>
